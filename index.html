@@ -4,23 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./Css/Styte.css" />
+
     <title>Document</title>
   </head>
   <body>
     <div class="header">
       <img src="./img/LOGO.png" alt="" />
       <ul>
-        <li><a href="">Trang Chu</a></li>
-        <li><a href="">Gioi thieu</a></li>
-        <li><a href="">San Pham</a></li>
-        <li><a href="">Tin Tuc </a></li>
-        <li><a href="">Lien He</a></li>
+        <li><a href="">Trang Chủ</a></li>
+        <li><a href="#intro">Giới Thiệu</a></li>
+        <li><a href="">Sản Phẩm</a></li>
+        <li>
+          <a href="">Tin Tức </a>
+        </li>
+        <li><a href="#contact">Liên Hệ</a></li>
       </ul>
     </div>
     <div class="carousel"></div>
     <div class="products">
-      <h2>Cac San Pham Ban Chay</h2>
+      <h2>Các Sản Phẩm Bán Chạy</h2>
       <!-- BEM -->
       <div class="products__item">
         <img src="./img/sp_1.jpg" alt="" />
@@ -68,7 +80,7 @@
       </div>
       <div class="clear"></div>
     </div>
-    <div class="intro">
+    <div class="intro" id="intro">
       <p class="intro__text">
         Tai <span>KLK phuc tinh</span> Lorem ipsum, dolor sit amet consectetur
         adipisicing elit. Labore porro necessitatibus laborum molestias quam
@@ -104,12 +116,54 @@
       <div class="banner__circle">
         <p>Sale OFF</p>
         <p>50%</p>
-        <p>Cac san pham sofa</p>
+        <p>Các sản phẩm sofa</p>
         <p>thang 7</p>
       </div>
     </div>
 
-    <div class="sercvice"></div>
-    <div class="footer"></div>
+    <div class="sercvice">
+      <div class="service__content">
+        <div class="service__item">
+          <i class="fa fa-home"></i>
+          <h2>Dịch Vụ Bảo Hành</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            eveniet recusandae! Id laudantium eveniet quisquam nesciunt
+            dignissimos ipsa, saepe, libero, aut voluptas rem delectus neque
+            iusto minus sunt voluptatem dicta?
+          </p>
+        </div>
+        <div class="service__item">
+          <i class="fa fa-pencil-alt"></i>
+          <h2>Thiết Kế Nội Thất</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            eveniet recusandae! Id laudantium eveniet quisquam nesciunt
+            dignissimos ipsa, saepe, libero, aut voluptas rem delectus neque
+            iusto minus sunt voluptatem dicta?
+          </p>
+        </div>
+        <div class="service__item">
+          <i class="fa fa-user"></i>
+          <h2>Đội Ngũ Nhân Lực</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            eveniet recusandae! Id laudantium eveniet quisquam nesciunt
+            dignissimos ipsa, saepe, libero, aut voluptas rem delectus neque
+            iusto minus sunt voluptatem dicta?
+          </p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="footer" id="contact">
+      <h2>Interior Design</h2>
+      <p>
+        Địa Chỉ: 459 Su van hanh,quan 10,TPHCM<br />Điện thoại :<a
+          href="tel:+849743800625"
+          >0974380625</a
+        ><br />Điện thoại Di Động :<a href="tel:+849743800625">0974380625</a>
+      </p>
+    </div>
   </body>
 </html>

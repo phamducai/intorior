@@ -30,6 +30,9 @@ body {
   display: inline;
   margin: 0 10px;
 }
+.header a:hover {
+  color: brown;
+}
 /* margin :khoang cach giua cac the voi nhau*/
 /* padding:noi dung so voi the */
 
@@ -131,4 +134,46 @@ body {
 .banner__circle p:nth-child(2) {
   font-size: 80px;
   margin: 0;
+}
+/* service */
+.service {
+  margin: 30px 0 10px;
+}
+.service__content {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  /* can giua */
+}
+.service__item {
+  width: 33.33%;
+  float: left;
+  padding: 0 10px;
+}
+.service__item i {
+  font-size: 40px;
+  color: black;
+}
+.service__item h2 {
+  margin: 10px 0;
+}
+.service__item p {
+  margin: 0;
+}
+/* footer */
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+.footer h2 p {
+  margin: 0px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: brown;
 }
